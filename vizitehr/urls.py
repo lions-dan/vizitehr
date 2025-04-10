@@ -35,7 +35,6 @@ urlpatterns = [
     path('ehr/scheduling/', include('apps.ehr.scheduling.urls')),
     path('messaging/', include('apps.messaging.urls')),
     path('analytics/', include('apps.analytics.urls')),
-    path('api/v1/', include('api.v1.urls')),  # if you're using DRF
 ]
 
 if settings.DEBUG:
